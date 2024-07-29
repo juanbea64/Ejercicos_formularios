@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Cymetria</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="contenedor_form">
+        <h1>Formulario Contacto Cymetria</h1>
+
+        <form action="/reponse_page" method="GET">
+            <p>
+                <label for="nombre">Nombre Completo: </label>
+                <input type="text" name="nombre" id="nombre" required>
+            </p>
+            <p>
+                <label for="correo">Correo: </label>
+                <input type="email" name="correo" id="correo" required>
+            </p>
+            <p>
+                <label for="telefono">Telefono: </label>
+                <input type="tel" name="telefono" id="telefono" required>
+            </p>
+            <p>
+                <label for="ciudad">Ciudad: </label>
+                <input type="text" name="ciudad" id="ciudad" required>
+            </p>
+            <p>
+                <label for="pais">Pais: </label>
+                <input type="text" name="pais" id="pais" required>
+            </p>
+            <p>
+                <label for="coment">Coloque aqui alguna observacio o comentario: </label>
+                <textarea name="coment" id="coment"></textarea>
+            </p>
+            <!-- <p>
+                <label for="fecha">Coloque aqui la fecha en la que nacio </label>
+                <input type="date" value="2006-01-01" min="1970-12-01" max="2006-12-01" tabindex="1">
+            </p>
+            <p>
+                <label for="fecha">Suba su foto de perfil en PNG: </label>
+                <input type="file" name="foto" accept=".png, .jpg" tabindex="2">
+            </p>
+            <fieldset tabindex="3">
+                <legend>Tipo de equipo</legend> <br />
+                <input id="pc" type="radio" name="rb3" value="radiobutton">
+                <label for="pc">PC</label><br />
+                <input id="linux" type="radio" name="rb3" value="radiobutton">
+                <label for="linux">Linux</label><br />
+            </fieldset>
+
+            <p> Elije un auto:
+                <select tabindex="4">
+                <optgroup label="Ferrari">
+                    <option>458 Spider</option>
+                    <option>F12 Berlinetta</option>
+                    <option>California T</option>
+                </optgroup>
+                <optgroup label="Porsche">
+                    <option>Macan</option>
+                    <option>918 Spyder</option>
+                </optgroup>
+                </select>
+            </p> -->
+            <button type="reset" >Borrar Info</button>
+    
+            <button type="submit" >Enviar</button>
+        </form>
+    </div>
+    
+</body>
+</html>

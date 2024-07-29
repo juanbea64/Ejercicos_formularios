@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Cymetria</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <h1>Formulario Cymetria</h1>
+    <div class="contenedor_form">
+        
+        <form action="/request_page" method="GET">
+            <p>
+                <label for="nombre" class="input_text">Nombre completo</label> <br>
+                <input type="text" value="   Ingrese su nombre completo" id="nombre" name="nombre" class="text" required>
+            </p>
+    
+            <p>
+                <label for="correo" class="input_text">Email</label> <br>
+                <input type="text" value="   Ej: username@correo.co" id="correo" name="correo" class="text" required>
+            </p>
+    
+             <p>
+                <label for="curso" class="label_text">¿Que curso estas tomando en Cymetria?</label> <br>
+                <div class="cont">
+                    <input type="radio" name="curso" value="SQL-SERVER" id="curso1" class="item_radio">
+                    <label for="curso1" class="item_label">SQL- SERVER</label><br>
+                </div>
+                <div class="cont">
+                    <input type="radio" name="curso" value="Frontend" id="curso2" class="item_radio">
+                    <label for="curso2" class="item_label">Frontend</label><br>
+                </div>
+                <div class="cont">
+                    <input type="radio" name="curso" value="Fullstack" id="curso3" class="item_radio">
+                    <label for="curso3" class="item_label">Fullstack</label>
+                </div>
+    
+            </p>
+    
+            <p>
+                <label for="lenguajes" class="label_text">¿Cuales lenguajes de programacion te gustaria seguir aprendiendo?</label> <br>
+                <div class="cont">
+                    <input type="checkbox" name="lenguajes" value="Python" id="python" class="item_check">
+                    <label for="python">Python</label><br>
+                </div>
+                <div class="cont">
+                    <input type="checkbox" name="lenguajes" value="JavaScript" id="javaScript" class="item_check">
+                    <label for="javaScript">JavaScript</label><br>
+                </div>
+                <div class="cont">
+                    <input type="checkbox" name="lenguajes" value=".Net" id="net" class="item_check">
+                    <label for="net">.Net</label><br>
+                </div>
+                <div class="cont"> 
+                    <input type="checkbox" name="lenguajes" value="Java" id="java" class="item_check">
+                    <label for="java">Java</label><br>
+                </div>
+                <div class="cont">
+                    <input type="checkbox" name="lenguajes" value="Nodejs" id="nodejs" class="item_check">
+                    <label for="nodejs">Nodejs</label><br>
+                </div>
+                <div class="cont">
+                    <input type="checkbox" name="lenguajes" value="PHP" id="php" class="item_check">
+                    <label for="php">PHP</label><br>
+                </div>
+                
+                
+    
+            </p>
+            
+            <div class="cont_botones">
+                <button type="reset" class="borrar bt">Cancelar</button>
+                <button type="submit" class="enviar bt">Enviar</button>
+            </div> 
+        </form>
+
+    </div>
+    
+    
+</body>
+</html>
